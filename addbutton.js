@@ -32,10 +32,24 @@ document.querySelector('.add-todo').addEventListener("click", function() {
                 
             }
         })*/
-
-        const taskField = document.querySelector('.todo-input');
-
+        
+        const text = document.querySelector('.todo-input').value
+        const priority = document.querySelector('.priority').value
+        
         document.querySelector('.add-todo').addEventListener('click', function(){
-        printTodo(addTodo(taskField.value));
-        taskField.value = '';
+            console.log('anything')
+            const text = document.querySelector('.todo-input').value
+            const object = {
+                text:text,
+                priority:document.querySelector('.priority').value,
+                complete: false,
+                id:1,
+            }
+
+            addTodo(object)
+            printTodo(object)
         })
+        
+        
+
+        

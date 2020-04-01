@@ -1,3 +1,105 @@
 .complete {
   text-decoration: line-through;
 }
+.app{
+  padding: 3em;
+  height: 180%;
+  width:60%;
+  background-color: yellow;
+  text-decoration: black;
+}
+
+.add-todo{
+font-size: large;
+background-color: white;
+height: 50%;
+width: 20%;
+}
+
+
+.add-todo:hover{
+background-color: thistle;
+color: white;
+}
+
+.todo-input{
+  font-size: large;
+background-color: white;
+height: 50%;
+width: 20%;
+}
+.todo-input:hover{
+  font
+  border: blue;
+  border
+  border-style: dotted ;
+color: white;
+}
+
+.priority{
+  font-size: large;
+background-color: white;
+height: 50%;
+width: 20%;
+}
+
+.priority:hover{
+  background-color: aquamarine;
+}
+
+.toggle-priorities{
+
+  font-size: large;
+background-color: white;
+height: 50%;
+width: 20%;
+
+}
+
+.toggle-priorities:hover{
+  background-color: aquamarine;
+}
+
+.hide-complete{
+
+  font-size: large;
+background-color: white;
+height: 50%;
+width: 20%;
+
+}
+
+.hide-complete:hover{
+  background-color: aquamarine;
+}
+
+.hide-low-priority{
+
+  font-size: large;
+background-color: white;
+height: 50%;
+width: 20%;
+
+}
+
+.hide-low-priority:hover{
+  background-color: aquamarine;
+}
+
+.high-priority-first{
+  font-size: large;
+background-color: white;
+height: 50%;
+width: 20%;
+
+}
+
+
+.high-priority-first:hover{
+  background-color: aquamarine;
+}
+
+.to{
+font-size: 1.5em;
+  
+}

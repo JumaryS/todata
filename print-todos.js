@@ -4,4 +4,3 @@ const printTodos = function(todos) {
   }
 }
 
-printTodos(todos);
