@@ -103,3 +103,17 @@ width: 20%;
 font-size: 1.5em;
   
 }
+
+
+.complete-last{
+  font-size: large;
+  background-color: white;
+  height: 50%;
+  width: 20%;
+  
+}
+
+
+.complete-last:hover{
+  background-color: aquamarine;
+}
